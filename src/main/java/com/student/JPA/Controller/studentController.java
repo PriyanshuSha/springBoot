@@ -45,7 +45,7 @@ public class studentController {
 		return service.addallstudents(studentList);
 		}
 	
-	@RequestMapping(method=RequestMethod.GET,value="/productname/{name}")
+	@RequestMapping(method=RequestMethod.GET,value="/studentname/{name}")
 	public student getStudentByName(@PathVariable String name)
 	{
 		return service.getStudentByName(name);
