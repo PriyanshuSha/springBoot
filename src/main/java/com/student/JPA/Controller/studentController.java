@@ -40,7 +40,7 @@ public class studentController {
 		return service.deletestudent(id);
 		
 	}
-	@RequestMapping(method=RequestMethod.POST, value="/addall")
+	@RequestMapping(method=RequestMethod.POST, value="/addallstudent's")
 	public String addAll(@RequestBody List<student> studentList){
 		return service.addallstudents(studentList);
 		}
