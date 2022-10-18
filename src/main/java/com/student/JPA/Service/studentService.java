@@ -44,8 +44,8 @@ public class studentService {
   	}
       
    // This is a method for find list of student's by name
-      public student getStudentByName(String productName) {
-  		return repo.findBystudentName(productName);
+      public student getStudentByName(String studentName) {
+  		return repo.findBystudentName(studentName);
   	}
   	
 }
